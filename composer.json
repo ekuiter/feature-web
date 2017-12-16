@@ -1,0 +1,22 @@
+{
+    "name": "ekuiter/feature-web",
+    "description": "An integrated solution for feature-oriented programming",
+    "keywords": ["feature", "feature-oriented", "featureide", "variant", "configuration", "software product line", "product line"],
+    "homepage": "https://github.com/ekuiter/feature-web",
+    "license": "SEE LICENSE IN README.md",
+    "authors": [
+        {
+            "name": "Elias Kuiter",
+            "email": "info@elias-kuiter.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ekuiter/feature-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FeatureWeb\\": "FeatureWeb/"
+        }
+    }
+}
