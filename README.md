@@ -23,12 +23,15 @@ This is how feature-web addresses the different phases of product-line engineeri
    [ekuiter/feature-configurator](https://github.com/ekuiter/feature-configurator)
 - *domain implementation*:
    [ekuiter/feature-php](https://github.com/ekuiter/feature-php) offers a
-   variety of variabilty mechanisms to implement features
+   variety of variability mechanisms to implement features
 - *product derivation*: automated file generation and ZIP export using
    [ekuiter/feature-php](https://github.com/ekuiter/feature-php)
 
 The links above provide you with further details on the inner workings,
 requirements and documentation for these packages.
+
+Note that feature-web and its packages are inspired by and tightly coupled with
+[FeatureIDE](https://featureide.github.io/) feature models and configurations.
 
 ### Usage
 
@@ -42,5 +45,5 @@ packages (see above) directly.
 
 ### License
 
-The rules from
-[uvr2web](https://github.com/ekuiter/uvr2web/blob/master/LICENSE.txt) apply.
+This project is released under the LGPL v3 license (see
+[LICENSE.txt](blob/master/LICENSE.txt)).
