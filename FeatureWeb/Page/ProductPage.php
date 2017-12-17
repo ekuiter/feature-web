@@ -16,11 +16,14 @@ class ProductPage extends ProductLinePage {
     }
 
     public function getNavigation() {
-        return array(
+        $links = array(
             array("title" => "Back", "script" => "window.history.back();"),
-            array("title" => "Download ZIP", "page" => "download_product", "preserve" => array("configuration")),
-            array("title" => "Local Install", "page" => "install_product", "preserve" => array("configuration"))
         );
+        if (\FeatureWeb\Core::getInstance()->downloadZipEnabled())
+            $links[] = array("title" => "Download ZIP", "page" => "download_product", "preserve" => array("configuration"));
+        if (\FeatureWeb\Core::getInstance()->localInstallEnabled())
+            $links[] = array("title" => "Local Install", "page" => "install_product", "preserve" => array("configuration"));
+        return $links;
     }
 }
 

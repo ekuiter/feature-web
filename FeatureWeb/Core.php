@@ -36,6 +36,14 @@ class Core {
         $this->productLineSettings = $productLineSettings;
     }
 
+    public function downloadZipEnabled() {
+        return !!$this->temporaryDirectory;
+    }
+
+    public function localInstallEnabled() {
+        return !!$this->installDirectory;
+    }
+
     public function getTemporaryDirectory() {
         if (!$this->temporaryDirectory)
             throw new \Exception("no temporary directory set");
