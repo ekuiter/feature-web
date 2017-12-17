@@ -45,5 +45,4 @@ packages (see above) directly.
 
 ### License
 
-This project is released under the LGPL v3 license (see
-[LICENSE.txt](blob/master/LICENSE.txt)).
+This project is released under the [LGPL v3 license](LICENSE.txt).
