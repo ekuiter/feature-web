@@ -1,0 +1,6 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "ekuiter/feature-web": "dev-master"
+    }
+}
