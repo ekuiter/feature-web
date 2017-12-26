@@ -3,7 +3,7 @@
     "description": "An integrated solution for feature-oriented programming",
     "keywords": ["feature", "feature-oriented", "featureide", "variant", "configuration", "software product line", "product line"],
     "homepage": "https://github.com/ekuiter/feature-web",
-    "license": "SEE LICENSE IN README.md",
+    "license": "LGPL-3.0",
     "authors": [
         {
             "name": "Elias Kuiter",

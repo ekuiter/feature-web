@@ -14,7 +14,7 @@ class ErrorPage extends Page {
     public function getBody() {
         return "<h1>Internal Server Error</h1>\n"
             . "<p>A <b>" . get_class($this->exception) . "</b> was thrown:</p>\n"
-            . "<p>" . $this->exception->getMessage() . "</p>";
+            . "<p>" . str_replace("\n", "<br>\n", $this->exception->getMessage()) . "</p>";
     }
 }
 

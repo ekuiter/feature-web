@@ -31,7 +31,8 @@ The links above provide you with further details on the inner workings,
 requirements and documentation for these packages.
 
 Note that feature-web and its packages are inspired by and tightly coupled with
-[FeatureIDE](https://featureide.github.io/) feature models and configurations.
+[FeatureIDE](https://featureide.github.io/) feature models and configurations
+(see [ekuiter/feature-schema](https://github.com/ekuiter/feature-schema)).
 
 ### Usage
 
