@@ -9,6 +9,7 @@ class Core {
     private $temporaryDirectory = null;
     private $installDirectory = null;
     private $afterInstallHook = null;
+    private $configuratorNotice = '';
 
     private function __construct() {}
     private function __clone() {}
@@ -75,6 +76,15 @@ class Core {
     public function setAfterInstallHook($afterInstallHook) {
         $this->afterInstallHook = $afterInstallHook;
     }
+
+    public function getConfiguratorNotice() {
+        return $this->configuratorNotice;
+    }
+
+    public function setConfiguratorNotice($configuratorNotice) {
+        $this->configuratorNotice = $configuratorNotice;
+    }
+
 }
 
 ?>
