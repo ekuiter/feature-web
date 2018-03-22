@@ -8,6 +8,8 @@ class ConfiguratorPage extends ProductLinePage {
         return fphp\File\TemplateFile::render(
             "layouts/configurator.html",
             array(
+                array("assign" => "script",
+                      "to" => htmlspecialchars($_SERVER['PHP_SELF'])),
                 array("assign" => "notice",
                       "to" => \FeatureWeb\Core::getInstance()->getConfiguratorNotice()),
                 array("assign" => "model",
