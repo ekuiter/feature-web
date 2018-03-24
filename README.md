@@ -6,8 +6,9 @@ integrated solution for feature-oriented programming on the web, including
 domain and requirements analysis as well as domain implementation and product
 derivation.
 
-To see it in action, have a look at the uvr2web software product line (*coming
-soon*).
+To see it in action, have a look at the uvr2web software product line -
+[homepage](http://uvr2web.de) and
+[feature-web](http://uvr2web.de/feature-web.php).
 
 ### How it works
 
